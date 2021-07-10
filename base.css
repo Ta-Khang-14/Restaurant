@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+:root {
+    --red: #dc3545;
+    --gray: #6c757d;
+}
+body {
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+}
+.letter--red {
+    color: var(--red);
+}
+button {
+    border: none;
+    background-color: rgb(250, 35, 35);
+    border-radius: 50px;
+    width: 150px;
+    height: 55px;
+}
+button a {
+    text-transform: uppercase;
+    color: white;
+}
+
+/* For responsive */
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (min-width: 1024px) {
+    .row {
+        margin: 0px -20px;
+    }
+    .col {
+        margin: 0px 20px;
+    }
+    .l-1 {
+        flex-basis: 8.3%;
+    }
+    .l-2 {
+        flex-basis: 16.6%;
+    }
+    .l-2_4 {
+        flex-basis: 20%;
+    }
+    .l-3 {
+        flex-basis: 25%;
+    }
+    .l-4 {
+        flex-basis: 33.3%;
+    }
+    .l-5 {
+        flex-basis: 41.6%;
+    }
+    .l-6 {
+        flex-basis: 50%;
+    }
+    .l-7 {
+        flex-basis: 58.3%;
+    }
+    .l-8 {
+        flex-basis: 66.6%;
+    }
+    .l-9 {
+        flex-basis: 75%;
+    }
+    .l-10 {
+        flex-basis: 83.3%;
+    }
+    .l-11 {
+        flex-basis: 91.6%;
+    }
+    .l-12 {
+        flex-basis: 100%;
+    }
+    
+}
+@media all and (max-width: 480px) {
+    .row {
+        margin: 0px -5px;
+    }
+    .col {
+        margin: 0px 5px;
+    }
+    .c-1 {
+        flex-basis: 8.3%;
+    }
+    .c-2 {
+        flex-basis: 16.6%;
+    }
+    .c-2_4 {
+        flex-basis: 20%;
+    }
+    .c-3 {
+        flex-basis: 25%;
+    }
+    .c-4 {
+        flex-basis: 33.3%;
+    }
+    .c-5 {
+        flex-basis: 41.6%;
+    }
+    .c-6 {
+        flex-basis: 50%;
+    }
+    .c-7 {
+        flex-basis: 58.3%;
+    }
+    .c-8 {
+        flex-basis: 66.6%;
+    }
+    .c-9 {
+        flex-basis: 75%;
+    }
+    .c-10 {
+        flex-basis: 83.3%;
+    }
+    .c-11 {
+        flex-basis: 91.6%;
+    }
+    .c-12 {
+        flex-basis: 100%;
+    }
+}
+@media all and (max-width: 768px) {
+    .row {
+        margin: 0px -10px;
+    }
+    .col {
+        margin: 0px 10px;
+    }
+    .m-1 {
+        flex-basis: 8.3%;
+    }
+    .m-2 {
+        flex-basis: 16.6%;
+    }
+    .m-2_4 {
+        flex-basis: 20%;
+    }
+    .m-3 {
+        flex-basis: 25%;
+    }
+    .m-4 {
+        flex-basis: 33.3%;
+    }
+    .m-5 {
+        flex-basis: 41.6%;
+    }
+    .m-6 {
+        flex-basis: 50%;
+    }
+    .m-7 {
+        flex-basis: 58.3%;
+    }
+    .m-8 {
+        flex-basis: 66.6%;
+    }
+    .m-9 {
+        flex-basis: 75%;
+    }
+    .m-10 {
+        flex-basis: 83.3%;
+    }
+    .m-11 {
+        flex-basis: 91.6%;
+    }
+    .m-12 {
+        flex-basis: 100%;
+    }
+}
+@media all and (max-width: 1024px) {
+    .row {
+        margin: 0px -15px;
+    }
+    .col {
+        margin: 0px 15px;
+    }
+    .lx-1 {
+        flex-basis: 8.3%;
+    }
+    .lx-2 {
+        flex-basis: 16.6%;
+    }
+    .lx-2_4 {
+        flex-basis: 20%;
+    }
+    .lx-3 {
+        flex-basis: 25%;
+    }
+    .lx-4 {
+        flex-basis: 33.3%;
+    }
+    .lx-5 {
+        flex-basis: 41.6%;
+    }
+    .lx-6 {
+        flex-basis: 50%;
+    }
+    .lx-7 {
+        flex-basis: 58.3%;
+    }
+    .lx-8 {
+        flex-basis: 66.6%;
+    }
+    .lx-9 {
+        flex-basis: 75%;
+    }
+    .lx-10 {
+        flex-basis: 83.3%;
+    }
+    .lx-11 {
+        flex-basis: 91.6%;
+    }
+    .lx-12 {
+        flex-basis: 100%;
+    }
+}
+
+
